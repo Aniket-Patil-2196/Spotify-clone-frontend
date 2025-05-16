@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+
+header{
+    width: 100vw;
+    height: 64px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+.explore{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #1f1f1f;
+    margin-right: 1rem;
+}
+
+.home:hover{
+    background-color: #292929;
+}
+
+.svg {
+    width: 1.5rem;
+}
+
+.search-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #1f1f1f; */
+    width: 3rem;
+    height: 3rem;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+#search{
+    font-size: 1rem;
+    font-weight: 500;
+    height: 3rem;
+    width: 80%;
+    /* background-color: #1f1f1f; */
+    background-color: transparent;
+    border: none;
+}
+
+.line{
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    border-left: 0.1rem #7c7c7c solid;
+}
+
+.browse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #1f1f1f; */
+    width: 3rem;
+    height: 3rem;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 3rem;
+    border-radius: 1.5rem / 50%;
+    background-color: #1f1f1f;
+}
+.search-bar:hover{
+    background-color: #292929;
+}
+.persnol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #1f1f1f;
+    margin-left: 1rem;
+}
+
+.prof-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #509bf5;
+}
+/* header complete */
